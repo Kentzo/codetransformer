@@ -1,7 +1,7 @@
 ``codetransformer``
 ===================
 
-|build status| |documentation|
+|build status| |coverage| |documentation|
 
 Bytecode transformers for CPython inspired by the ``ast`` module's
 ``NodeTransformer``.
@@ -260,6 +260,8 @@ https://github.com/llllllllll/codetransformer.
 .. _opcode: https://docs.python.org/3.5/library/dis.html#opcode-NOP
 .. |build status| image:: https://travis-ci.org/llllllllll/codetransformer.svg?branch=master
    :target: https://travis-ci.org/llllllllll/codetransformer
+.. |coverage| image:: https://codecov.io/gh/llllllllll/codetransformer/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/llllllllll/codetransformer
 .. |documentation| image:: https://readthedocs.org/projects/codetransformer/badge/?version=stable
    :target: http://codetransformer.readthedocs.io/en/stable/?badge=stable
    :alt: Documentation Status
