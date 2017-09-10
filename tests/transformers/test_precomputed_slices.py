@@ -1,7 +1,7 @@
 from codetransformer.code import Code
 from codetransformer.instructions import BUILD_SLICE, LOAD_CONST
 
-from ..precomputed_slices import precomputed_slices
+from codetransformer.transformers.precomputed_slices import precomputed_slices
 
 
 def test_precomputed_slices():

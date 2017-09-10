@@ -1,4 +1,4 @@
-from ..add2mul import add2mul
+from codetransformer.transformers.add2mul import add2mul
 
 
 def test_add2mul():

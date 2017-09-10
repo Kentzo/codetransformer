@@ -2,7 +2,7 @@ from io import StringIO
 from textwrap import dedent
 from types import CodeType
 
-from ..pretty import a, walk_code
+from codetransformer.utils.pretty import a, walk_code
 
 
 def test_a(capsys):

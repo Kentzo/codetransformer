@@ -1,5 +1,5 @@
 from pytest import raises
-from ..pattern_matched_exceptions import pattern_matched_exceptions
+from codetransformer.transformers.pattern_matched_exceptions import pattern_matched_exceptions
 
 
 def test_patterns():

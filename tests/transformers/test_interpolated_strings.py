@@ -2,7 +2,7 @@ import sys
 
 import pytest
 
-from ..interpolated_strings import interpolated_strings
+from codetransformer.transformers.interpolated_strings import interpolated_strings
 
 
 pytestmark = pytest.mark.skipif(

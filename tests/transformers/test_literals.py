@@ -5,7 +5,7 @@ from collections import OrderedDict
 from decimal import Decimal
 from itertools import islice
 
-from ..literals import (
+from codetransformer.transformers.literals import (
     islice_literals,
     overloaded_dicts,
     overloaded_bytes,

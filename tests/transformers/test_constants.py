@@ -5,7 +5,7 @@ from types import CodeType
 import pytest
 
 from codetransformer.code import Code
-from ..constants import asconstants
+from codetransformer.transformers.constants import asconstants
 
 
 basename = os.path.basename(__file__)

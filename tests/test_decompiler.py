@@ -18,7 +18,7 @@ pytestmark = pytest.mark.skipif(
     reason='decompiler only runs on 3.4',
 )
 if _343:
-    from ..decompiler import (
+    from codetransformer.decompiler import (
         DecompilationContext,
         decompile,
         paramnames,
